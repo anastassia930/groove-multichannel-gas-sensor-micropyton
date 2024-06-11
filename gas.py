@@ -3,7 +3,7 @@ from time import sleep
 
 
 class Gas:
-    DEFAULT_I2C_ADDR = 0x04
+    DEFAULT_I2C_ADDR = 0x01
 
     ADDR_IS_SET = 0  # if this is the first time to run, if 1126, set
     ADDR_FACTORY_ADC_NH3 = 2
